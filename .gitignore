@@ -1,0 +1,27 @@
+*#
+*.pyc
+*.tm.epoch
+*-shim.sbt
+/logs
+.cache
+.classpath
+.project
+.settings
+metals/
+metals.sbt
+.vscode
+
+### SBT ### 
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+ 
+### Scala ###
+*.class
+*.log
